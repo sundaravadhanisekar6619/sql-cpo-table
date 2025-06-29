@@ -135,4 +135,3 @@ ADD FOREIGN KEY (order_item_id) REFERENCES order_items(id);
 10)--Retrieve the average total of all orders.
 select AVG(total_amt) AS average_of_all_products
 from orders;
-
